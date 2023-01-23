@@ -1,0 +1,3 @@
+[submodule "nuenenen-backend"]
+	path = nuenenen-backend
+	url = https://github.com/mischahaenen/nuenenen-backend
