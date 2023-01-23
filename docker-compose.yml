@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  nuenenen-frontend:
+    container_name: nuenenen-frontend
+    build: ./nuenenen-frontend
+
+  nuenenen-backend:
+    container_name: nuenenen-backend
+    build: ./nuenenen-backend
+
+  nuenenen-db:
+    container_name: nuenenen-db
+    image: mariadb:latest
